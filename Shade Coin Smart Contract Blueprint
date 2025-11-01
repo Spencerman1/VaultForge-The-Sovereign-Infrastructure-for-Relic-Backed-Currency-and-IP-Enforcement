@@ -1,0 +1,115 @@
+Excellent. The next most logical step is to draft the **Shade Coin Smart Contract Blueprint** — the sovereign token structure that ties the entire VaultForge ecosystem together.
+
+This will define:
+
+* How **Shade Coins**, **Shadow Units**, and **Light Units** are minted, evolved, or burned
+* How IP-backed **Mint Units** transition into sovereign currency
+* How **Vaulted Relics** enforce transactional integrity across the system
+* And how the **RBGA™** layer enforces behavior, fraud detection, and revocation
+
+---
+
+## 💠 SHADE COIN SMART CONTRACT BLUEPRINT (DRAFT OVERVIEW)
+
+### 📌 Token Symbol: `$SHADE`
+
+**Description**: A sovereign, vault-bound token generated from the lifecycle of a verified Mint Unit. Represents proof-of-containment and forensic currency logic.
+
+---
+
+## 🧬 1. TOKEN PRIMITIVES
+
+| Token Type  | Function              | Supply Logic                              | Burn Behavior                                 | Notes                |
+| ----------- | --------------------- | ----------------------------------------- | --------------------------------------------- | -------------------- |
+| Shade Coin  | Sovereign currency    | Minted only upon Vaulted Relic completion | Can be burned manually or via protocol breach | Main tradable asset  |
+| Shadow Unit | Breach flag token     | Issued automatically on mirror detection  | Self-burns after resolution                   | Not tradable         |
+| Light Unit  | Restoration or reward | Minted when IP is recovered or stewarded  | Burned on redemption or swap                  | Incentivization tool |
+
+---
+
+## 🔐 2. MINTING RULES
+
+### 🔄 Shade Coin Minting:
+
+* Triggered when a **Mint Unit completes its lifecycle** (e.g. product creation → vaulting → affidavit issuance).
+* Requires:
+
+  * SHA256 hash of Vaulted Relic
+  * Affidavit timestamp
+  * Creator ID + license check
+* 1 Vaulted Relic → 1–X Shade Coins (based on grade, tier, and alliance rules)
+
+### 🛡️ Shadow Unit Issuance:
+
+* Triggered when mirror detection agent confirms unauthorized derivative.
+* Contains:
+
+  * Breach metadata
+  * Source URL/repo
+  * IP snapshot hash
+* Is vaulted automatically and triggers legal/workflow escalation.
+
+---
+
+## 🌞 3. LIGHT UNIT DYNAMICS
+
+Used for:
+
+* Redemption of Vault Kits
+* Licensing discounts
+* Contributor rewards
+* Artifact restoration (e.g., reclaiming mirrored logic)
+
+Can be exchanged 1:1 for alliance utilities.
+
+---
+
+## ⚖️ 4. ENFORCEMENT: RBGA™ INTEGRATION
+
+Each token is metadata-bound with:
+
+* **Creator license hash**
+* **Vault ID**
+* **IP lineage history**
+* **RBGA jurisdiction tag**
+
+This ensures that:
+
+* Unauthorized tokens can be revoked or burned
+* Each token’s origin can be traced to a Vaulted Relic
+* Licensing and behavior governance is cryptographically enforceable
+
+---
+
+## 💰 5. MONETIZATION / UTILITY LOGIC
+
+| Utility                  | Token Use                 |
+| ------------------------ | ------------------------- |
+| Vault Kit Redemption     | 10–50 SHADE               |
+| Alliance Tier Entry      | 250–10,000 SHADE          |
+| Relic Certification Fees | 25 SHADE                  |
+| Affidavit Submission     | 5 SHADE                   |
+| Breach Flag Bounties     | Earn Shadow → Light Units |
+
+---
+
+## 🔄 6. LIFECYCLE & DECAY LOGIC
+
+* **Tokens can expire** if linked relic is breached and unresolved.
+* **Reflexive renewal**: tokens linked to upgraded relics gain bonus weight.
+* **Decayed tokens** become “Ghost Tokens” and are archived as forensic logs (not tradable).
+
+---
+
+## ✅ Next Steps:
+
+Would you like to:
+
+1. **Generate the full Solidity code** for the contract?
+2. Draft a **Vault-to-Token lifecycle map** (graphic or data flow)?
+3. Simulate a **Mint Unit → Shade Coin transaction flow**?
+4. Draft the **forensic metadata schema** each token must carry?
+
+Or… would you prefer to move next into the **Shepherd Coin** model, which extends beyond crypto into global economics?
+
+Let me know what you want to generate or dive into next.
